@@ -18,7 +18,7 @@ body {
 /* Header */
 .header {
     display: flex;
-    height: 50px;
+    min-height: 50px;
     width: 100%;
     position: fixed;
     left: 0;
@@ -387,11 +387,14 @@ textarea{
         font-size: 0.5rem;
     }
     .image{
-        width: 3rem;
-        height: 3rem;
+        width: 100%;
+        height: auto;
     }
     .image1{
         height: auto;
+        width: 100%;
+    }
+    .header{
         width: 100%;
     }
     
